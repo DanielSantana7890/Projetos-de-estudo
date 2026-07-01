@@ -7,5 +7,9 @@ try:
     nota2 = float(input('Digite sua segunda nota:'))
     resultado = (nota + nota2) / 2
     print('Olá \033[1;32;40m{}\033[0m, sua primeira nota foi \033[1;32;40m{}\033[0m e sua segunda nota você tirou \033[1;32;40m{}\033[0m com isso seu resultado final é: \033[1;33;40m{}\033[0m a data de hoje é \033[1;32;40m{}\033[0m'.format(nome,nota,nota2,resultado,data_atual))
+    if resultado < 6.0:
+        print('\n\033[1;32;40mReprovado!\033[0m')
+    else:
+        print('\n\033[1;32;40mAprovado!\033[0m')
 except ValueError:
     print('Digite algo válido!')
