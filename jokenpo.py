@@ -1,10 +1,17 @@
 from random import randint
+from time import sleep
 print('=-'*12)
 print('{}JOKENPÔ'.format(" "*7))
 print('=-'*12)
 print('[1]Pedra\n[2]Papel\n[3]Tesoura')
 print('=-'*12)
 opcao = int(input('Digite sua escolha:'))
+print('JO')
+sleep(1)
+print('KEN')
+sleep(1)
+print('PO!!!!')
+print('=-'*12)
 itens = ('Pedra','Papel','Tesoura')
 computador = randint(0,2)
 escolha = 'null'
